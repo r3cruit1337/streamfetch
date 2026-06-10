@@ -45,7 +45,7 @@ class MainWindow(QMainWindow):
         title = QLabel("YT-DLP GUI")
         title.setObjectName("titleLabel")
         version_label = QLabel(f"v{APP_VERSION}")
-        version_label.setObjectName("subtitielLabel")
+        version_label.setObjectName("subtitleLabel")
         version_label.setAlignment(Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignCenter)
         header.addWidget(title)
         header.addStretch()
@@ -113,7 +113,7 @@ class MainWindow(QMainWindow):
         #Footer
         footer_row = QHBoxLayout()
         self.status_label = QLabel("Ready")
-        self.status_label.setObjectName("subtitleLable")
+        self.status_label.setObjectName("subtitleLabel")
         footer_row.addWidget(self.status_label, stretch=1)
 
         self.open_folder_button = QPushButton("📂  Open Folder")
@@ -173,6 +173,8 @@ class MainWindow(QMainWindow):
     
     @Slot()
     def _on_download_clicked(self) -> None:
+        if self._thread and self._thread.isRunning():
+            return
         url = self.url_input.text().strip()
         if not url:
             self._log("error", "✘  Please enter a YouTube URL first.")
