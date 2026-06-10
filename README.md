@@ -6,7 +6,7 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
 ### Installation & Running
 
 #### For Windows users
-* **[Download Latest Version for Windows](https://github.com/r3cruit1337/ytdlp-gui/releases/latest/download/ytdlp-gui.exe)** 🚀
+* **[Download Latest Version for Windows](https://github.com/r3cruit1337/ytdlp-gui/releases/tag/v1.0.0)**
 * Just download the `ytdlp-gui.exe` and run it (no installation required).
 
 #### For Linux users (Run from source)
