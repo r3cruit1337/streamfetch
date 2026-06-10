@@ -1,6 +1,13 @@
 ## YTDLP-GUI
 A graphical shell using the yt-dlp library. Built with Python and PySide6.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PySide6-6.0+-41CD52?logo=qt&logoColor=white" alt="PySide6">
+  <img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="License">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey" alt="Platform">
+</p>
+
 ---
 
 ### Installation & Running
