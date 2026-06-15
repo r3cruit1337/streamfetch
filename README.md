@@ -15,7 +15,7 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
 
 | Platform | Download |
 |----------|----------|
-| Windows | [![Download](https://img.shields.io/badge/Download-.exe-blue?logo=windows)](https://github.com/r3cruit1337/ytdlp-gui/releases/latest) |
+| Windows | [![Download](https://img.shields.io/badge/Download-.exe-blue?logo=windows)](https://github.com/r3cruit1337/streamfetch/releases/latest) |
 
 ## Overview
 
