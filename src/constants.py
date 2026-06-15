@@ -1,4 +1,4 @@
-APP_TITLE = "YTDLP GUI"
+APP_TITLE = "StreamFetch"
 APP_VERSION = "1.0.0"
 
 

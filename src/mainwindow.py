@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
 
         #Header
         header = QHBoxLayout()
-        title = QLabel("YT-DLP GUI")
+        title = QLabel("StreamFetch")
         title.setObjectName("titleLabel")
         version_label = QLabel(f"v{APP_VERSION}")
         version_label.setObjectName("subtitleLabel")
