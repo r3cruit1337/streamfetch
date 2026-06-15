@@ -9,6 +9,13 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
 </p>
 
 ---
+## Windows Installation
+
+> For Windows users, a pre-built `.exe` is available — no Python required.
+
+| Platform | Download |
+|----------|----------|
+| Windows | [![Download](https://img.shields.io/badge/Download-.exe-blue?logo=windows)](https://github.com/r3cruit1337/ytdlp-gui/releases/latest) |
 
 ## Overview
 
