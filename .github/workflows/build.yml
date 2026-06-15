@@ -28,7 +28,7 @@ jobs:
       - name: Build EXE
         run: |
           pyinstaller --onefile --windowed `
-            --name ytdlp-gui `
+            --name streamfetch `
             --collect-all yt_dlp `
             --collect-all imageio_ffmpeg `
             src/main.py
