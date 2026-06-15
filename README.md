@@ -46,8 +46,8 @@ Dependencies are listed in `requirements.txt`.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/r3cruit1337/ytdlp-gui.git
-cd ytdlp-gui
+git clone https://github.com/r3cruit1337/streamfetch.git
+cd streamfetch
 ```
 
 2. Create and activate a virtual environment:
