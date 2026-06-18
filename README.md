@@ -41,11 +41,12 @@ Dependencies are listed in `requirements.txt`.
 
 ---
 
-## Installation
+## Linux installation
 
 1. Clone this repository:
 
 ```bash
+# Activate virtual environment (bash/zsh)
 git clone https://github.com/r3cruit1337/streamfetch.git
 cd streamfetch
 ```
