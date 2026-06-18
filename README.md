@@ -19,7 +19,7 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
 
 ## Overview
 
-`Stream Fetch` is app that leverages the `yt-dlp` library to download media from supported stream sources.
+`Stream Fetch` is an app that leverages the `yt-dlp` library to download media from supported stream sources.
 It provides:
 
 - URL input for supported stream links
