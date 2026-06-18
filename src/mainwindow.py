@@ -58,7 +58,7 @@ class MainWindow(QMainWindow):
         url_label.setObjectName("sectionLabel")
         root.addWidget(url_label)
         self.url_input = QLineEdit()
-        self.url_input.setPlaceholderText("https://www.youtube.com/watch?v=…")
+        self.url_input.setPlaceholderText("Enter the link to the site you want to download media from...")
         self.url_input.setClearButtonEnabled(True)
         root.addWidget(self.url_input)
 
@@ -202,6 +202,7 @@ class MainWindow(QMainWindow):
         self._worker.download_finished.connect(self._thread.quit)
         self._worker.download_finished.connect(self._worker.deleteLater)
         self._thread.finished.connect(self._thread.deleteLater)
+        self._thread.finished.connect(lambda: setattr(self, '_thread', None))
 
         self._set_downloading(True)
         self.progress_bar.setValue(0)
