@@ -46,7 +46,6 @@ Dependencies are listed in `requirements.txt`.
 1. Clone this repository:
 
 ```bash
-# Activate virtual environment (bash/zsh)
 git clone https://github.com/r3cruit1337/streamfetch.git
 cd streamfetch
 ```
@@ -54,8 +53,11 @@ cd streamfetch
 2. Create and activate a virtual environment:
 
 ```bash
+# Activate virtual environment (bash/zsh)
 python -m venv env
 source env/bin/activate
+# Activate virtual environment (fish)
+source env/bin/activate.fish
 ```
 
 3. Install dependencies:
