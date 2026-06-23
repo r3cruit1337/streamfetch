@@ -177,7 +177,7 @@ class MainWindow(QMainWindow):
             return
         url = self.url_input.text().strip()
         if not url:
-            self._log("error", "✘  Please enter a YouTube URL first.")
+            self._log("error", "✘  Please enter a valid URL first.")
             self.url_input.setFocus()
             return
         if not (url.startswith("http://") or url.startswith("https://")):

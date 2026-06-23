@@ -4,7 +4,7 @@ from constants import APP_TITLE, APP_VERSION, GLOBAL_STYLESHEET
 
 from PySide6.QtWidgets import QApplication
 
-from  mainwindow import *
+from  mainwindow import MainWindow
 
 def main() -> None:
     QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)

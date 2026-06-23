@@ -106,9 +106,9 @@ class DownloadWorker(QObject):
             self.download_finished.emit(True)
 
         except yt_dlp.utils.DownloadError as exc:
-            self.log_message.emit("error", f"✘  Download error: {exc}")
-            self.download_finished.emit(False)
-
-        except Exception as exc:
-            self.log_message.emit("error", f"✘  Unexpected error: {exc}")
-            self.download_finished.emit(False)
+            if self._cancelled:
+                self.log_message.emit("error", f"✘  Download error: {exc}")
+                self.download_finished.emit(False)
+            else:
+                self.log_message.emit("error", f"✘  Unexpected error: {exc}")
+                self.download_finished.emit(False)
