@@ -1,5 +1,5 @@
 ## StreamFetch
-A graphical shell using the yt-dlp library. Built with Python and PySide6.
+Lightweight portable yt-dlp GUI for Linux and Windows. Built with Python and PySide6.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white" alt="Python">
@@ -7,6 +7,10 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
   <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
   <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey" alt="Platform">
 </p>
+
+---
+## Screenshots
+![MainWindow](screenshots/mainwindow.png)
 
 ---
 ## Windows Installation
@@ -17,7 +21,7 @@ A graphical shell using the yt-dlp library. Built with Python and PySide6.
 |----------|----------|
 | Windows | [![Download](https://img.shields.io/badge/Download-.exe-blue?logo=windows)](https://github.com/r3cruit1337/streamfetch/releases/latest) |
 
-## Overview
+## Features
 
 `Stream Fetch` is an app that leverages the `yt-dlp` library to download media from supported stream sources.
 It provides:
