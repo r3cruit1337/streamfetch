@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [Unreleased] - [2.0.0] - 2026-xx-xx
+
+### Added
+- Added application icon for window frame, desktop, and taskbar
+### Changed
+- Updated application name
+- Overhauled application design
+- Refactored entire Python codebase to improve code readability and structure
 
 ## [1.0.2] - 2026-06-23
 
