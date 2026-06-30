@@ -1,5 +1,5 @@
 APP_TITLE = "StreamFetch"
-APP_VERSION = "1.0.1"
+APP_VERSION = "1.0.2"
 
 
 CLR_BG          = "#0f0f11"
